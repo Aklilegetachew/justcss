@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  color: white;
+}
+header {
+  margin: 30px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(./bg.jpg);
+  /* background-position: top right; */
+  background-size: cover;
+}
+
+.Card {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  background-color: whitesmoke;
+}
+.cardTitle {
+  color: yellowgreen;
+  margin: 15px;
+  margin-left: 0;
+  max-height: fit-content;
+}
+
+.CardBody {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  max-height: fit-content;
+}
+
+div.ListDiv {
+  justify-content: space-evenly;
+  max-width: 300px;
+}
+
+.divForm {
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 0;
+  display: inline-block;
+  max-width: 300px;
+}
+
+.divForm .labelForm label {
+  margin-bottom: 995px;
+}
+input {
+  padding: 8px;
+  border-radius: 10px;
+  /* border: darkgrey; */
+  max-width: 100%;
+  display: inline;
+}
+
+.divForm textarea {
+  max-width: 180px;
+  border-radius: 10px;
+}
+.ImageContainer {
+  margin: 20px;
+  align-items: center;
+}
+.ImageContainer img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  align-items: center;
+}

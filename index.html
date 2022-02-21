@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Tomoca Coffee Shop</title>
+</head>
+
+<body>
+  <div class="BigContaier">
+    <header>
+      <h2>Tomoca Coffee Shop</h2>
+    </header>
+
+    <section class="subContainer">
+      <div class="Card">
+        <h3 class="cardTitle">Customer Information</h3>
+        <div class="CardBody">
+          <form action="/action_page.php">
+            <div class="ListDiv">
+              <div class="divForm">
+                <label class="labelForm" for="fname">First name:</label><br />
+                <input type="text" name="fname" value="John" /><br />
+              </div>
+              <div class="divForm">
+                <label class="labelForm" for="Phname">Phone Number:</label><br />
+                <input type="text" name="Phname" value="0922749861" /><br />
+              </div>
+              <div class="divForm">
+                <label class="labelForm" for="Phname">Location:</label><br />
+                <input type="text"  name="Phname" value="Doe" /><br />
+              </div>
+              <div class="divForm">
+                <label class="labelForm" for="Markuparea">Markup:</label><br />
+                <textarea  name="Markuparea" rows="4" cols="50"> this is a mark up </textarea>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="Card">
+        <h3 class="cardTitle">Order Summary</h3>
+        <div class="CardBody">
+          <div class="ImageContainer">
+            <img src="500g2.jpg" class="productImg" alt="image here" />
+          </div>
+          
+          <div class="ProductDetail">
+            <div class="ProductTitle">
+              <h6>Product Title</h6>
+            </div>
+            <div class="ProductCheck">
+              <p>Quantity</p>
+              <p>2</p>
+            </div>
+            <div class="ProductCheck">
+              <p>Size</p>
+              <p>2</p>
+            </div>
+            <div class="ProductCheck">
+              <p>price</p>
+              <p>2</p>
+            </div>
+            <div class="ProductCheck">
+              <p>Total</p>
+              <p>2</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <button>Confirm Order</button>
+    <button>Cancel Order</button>
+  </div>
+</body>
+
+</html>
