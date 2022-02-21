@@ -78,3 +78,14 @@ input {
   object-fit: cover;
   align-items: center;
 }
+
+.ProductTitle {
+  text-align: center;
+  margin: 20px;
+}
+
+.ProductCheck {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
